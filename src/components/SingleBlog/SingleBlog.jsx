@@ -19,26 +19,26 @@ const SingleBlog = ({ blog, addReadingTime, addBookMark }) => {
   };
 
   return (
-    <div className="mb-3">
+    <div className="mb-3 mr-3">
       <div className="card">
-        <img src={bookCoverImage} className="card-img-top" alt="" />
+        <img src={bookCoverImage} className="h-[450px]" alt="" />
         <div className="card-body">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-1">
               <div className="">
                 <img
                   src={authorImage}
-                  className="w-[70px] h-[70px] rounded-md"
+                  className="w-[70px] h-[70px] rounded-full"
                   alt=""
                 />
               </div>
               <div>
-                <p className="mb-0 font-bold text-[3rem]">{authorName}</p>
+                <p className="mb-0 font-bold text-xl">{authorName}</p>
                 <p>{date}</p>
               </div>
             </div>
             <div className="flex items-start">
-              <p>{readTime} min read</p>
+              <p className="mr-1">{readTime} min read</p>
               <button onClick={toggleBookmark} className="border-0 bg-body">
                 <FontAwesomeIcon
                   icon={faBookmark}
@@ -47,9 +47,9 @@ const SingleBlog = ({ blog, addReadingTime, addBookMark }) => {
               </button>
             </div>
           </div>
-          <h5 className="card-title text-[4.5rem] my-2">{bookTitle}</h5>
-          <p className="card-text text-secondary">#beginners #programming</p>
-          <a href="#" onClick={() => addReadingTime(time)}>
+          <h5 className="card-title text-2xl my-2">{bookTitle}</h5>
+          <p className="mt-3 text-[rgba(17, 17, 17, 0.6)]">#beginners #programming</p>
+          <a href="#" className="text-[#6047EC] underline underline-offset-1" onClick={() => addReadingTime(readTime)}>
             Mark as read
           </a>
         </div>

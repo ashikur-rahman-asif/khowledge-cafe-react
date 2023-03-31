@@ -1,18 +1,22 @@
 import React from "react";
-
+import './SideBar.css'
 const SideBar = ({ times, texts }) => {
   return (
-    <div>
-      <div className="sticky top-0">
-        <p className="rounded-md bg-blue-100 p-10 font-semibold text-lg w-[100%]">Spent time on read : {times} min</p>
-        <div className="card bg-secondary bg-opacity-25">
-          <p className="fw-bold">Bookmarked Blogs : {texts.length}</p>
+    
+      <div className="sticky top-0 border m-[50px] ">
+      <div className="bg-blue-50">
+      <p className="rounded-md  p-10 font-semibold text-lg w-[100%]  text-[#6047EC]">Spent time on read : {times} min</p>
+        </div>
+        <div className="mt-5 bg-blue-50">
+        <div>
+        <p className="font-bold bookmark">Bookmarked Blogs : {texts.length}</p>
           {texts.map((text) => (
-            <p className="card bg-white">{text}</p>
+            <p className=" bg-[#FFFFFF] mt-4 w-[80%] mb-4 p-3 text-center mx-auto">{text}</p>
           ))}
+          </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
