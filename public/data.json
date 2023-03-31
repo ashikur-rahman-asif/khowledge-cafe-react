@@ -1,38 +1,38 @@
 [
-    {
-        "id":101,
-        "author-name":"Ashikur Rahman Asif",
-        "author-image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/A1yTSClLRPL._SY600_.jpg",
-        "book-title":"JavaScript: The Good Parts",
-        "book-cover-image":"https://learning.oreilly.com/library/cover/9780596517748/360h/",
-        "read-time":8,
-        "date":"May 08, 2008"
-    },
-    {
-        "id":102,
-        "author-name":"Fardin Fahim",
-        "author-image":"https://2011.ffconf.org/images/speakers/marijn.jpg",
-        "book-title":"Eloquent JavaScript",
-        "book-cover-image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1308260856i/8910666.jpg",
-        "read-time":5,
-        "date":"December 04, 2018"
-    },
-    {
-        "id":103,
-        "author-name":"AL Ruhul Amin",
-        "author-image":"https://www.apogeonline.com/contrib/uploads/Jon-Duckett.png",
-        "book-title":"JavaScript and JQuery",
-        "book-cover-image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/S/aplus-media-library-service-media/00cf3832-5dca-4401-84eb-44abd2c793f1.__CR0,0,1500,1500_PT0_SX300_V1___.jpg",
-        "read-time":10,
-        "date":"February 14, 2013"
-    },
-    {
-        "id":104,
-        "author-name":"Aktaruzzaman Razib",
-        "author-image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/authors/1425808791i/5333816._UY200_CR27,0,200,200_.jpg",
-        "book-title":"You Don't Know JS: ES6 & Beyond",
-        "book-cover-image":"https://learning.oreilly.com/library/cover/9781491905241/360h/",
-        "read-time":12,
-        "date":"January 02, 2016"
-    }
+  {
+      "id":101,
+      "author-name":"Ashikur Rahman Asif",
+      "author-image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/A1yTSClLRPL._SY600_.jpg",
+      "book-title":"JavaScript: The Good Parts",
+      "book-cover-image":"https://learning.oreilly.com/library/cover/9780596517748/360h/",
+      "read-time":8,
+      "date":"May 08, 2008"
+  },
+  {
+      "id":102,
+      "author-name":"Fardin Fahim",
+      "author-image":"https://2011.ffconf.org/images/speakers/marijn.jpg",
+      "book-title":"Eloquent JavaScript",
+      "book-cover-image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1308260856i/8910666.jpg",
+      "read-time":5,
+      "date":"December 04, 2018"
+  },
+  {
+      "id":103,
+      "author-name":"AL Ruhul Amin",
+      "author-image":"https://www.apogeonline.com/contrib/uploads/Jon-Duckett.png",
+      "book-title":"JavaScript and JQuery",
+      "book-cover-image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/S/aplus-media-library-service-media/00cf3832-5dca-4401-84eb-44abd2c793f1.__CR0,0,1500,1500_PT0_SX300_V1___.jpg",
+      "read-time":10,
+      "date":"February 14, 2013"
+  },
+  {
+      "id":104,
+      "author-name":"Aktaruzzaman Razib",
+      "author-image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/authors/1425808791i/5333816._UY200_CR27,0,200,200_.jpg",
+      "book-title":"You Don't Know JS: ES6 & Beyond",
+      "book-cover-image":"https://learning.oreilly.com/library/cover/9781491905241/360h/",
+      "read-time":12,
+      "date":"January 02, 2016"
+  }
 ]
