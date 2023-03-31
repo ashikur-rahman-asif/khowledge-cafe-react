@@ -1,8 +1,8 @@
 import React from "react";
-
+import './Header.css'
 const Header = () => {
   return (
-    <div className="mx-32">
+    <div className="header-container mx-32">
       <div className="navbar bg-base-100">
         <div className="flex-1">
           <h1 className="text-3xl font-bold">Knowledge House</h1>
