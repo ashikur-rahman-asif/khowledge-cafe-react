@@ -1,5 +1,4 @@
 import React from "react";
-import "./Question.css";
 import { Fragment, useState } from "react";
 import {
   Accordion,
@@ -13,8 +12,7 @@ const Question = () => {
     setOpen(open === value ? 0 : value);
   };
   return (
-      <div className="">
-          <Fragment>
+    <Fragment>
       <Accordion open={open === 1}>
         <AccordionHeader onClick={() => handleOpen(1)}>
           Difference between Props and State?
@@ -75,7 +73,6 @@ const Question = () => {
         </AccordionBody>
       </Accordion>
     </Fragment>
-    </div>
   );
 };
 
