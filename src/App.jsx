@@ -5,6 +5,7 @@ import Blogs from './components/Blogs/Blogs'
 import SideBar from './components/SideBar/SideBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Question from './components/Question/Question'
 
 function App() {
   const [times, setTimes] = useState(0);
@@ -34,7 +35,7 @@ function App() {
         </div>
       </div>
       <div className='mb-3 md:mx-5 md:px-5 md:mt-3'>
-        
+      <Question></Question>
       </div>
       <ToastContainer></ToastContainer>
     </div>
