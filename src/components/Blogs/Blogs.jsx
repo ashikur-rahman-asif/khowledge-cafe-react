@@ -5,7 +5,7 @@ import SideBar from "../SideBar/SideBar";
 const Blogs = ({ addReadingTime, addBookMark }) => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("../../../public/data.json")
+    fetch("data.json")
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
